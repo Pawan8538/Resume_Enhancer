@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.upload-input {
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-button {
+  display: block;
+  justify-self: center;
+  margin: 20px;
+}
+
+.buttons {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px; /* Limit width */
+  margin: 0 auto;   /* Center horizontally */
+}
+
+.section {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.sections-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea[data-section="summary"] {
+  min-height: 120px;
+}
+
+textarea[data-section]:not([data-section="summary"]) {
+  min-height: 50px;
+}
+
+.section-array,
+.section-string {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 6px;
+  resize: vertical;
+  box-sizing: border-box;
+}

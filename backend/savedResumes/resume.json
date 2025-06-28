@@ -1,0 +1,16 @@
+{
+  "name": "Johnathan Doe",
+  "summary": "Seasoned frontend developer skilled in React, performance optimization, and UI/UX best practices.",
+  "education": [
+    "B.Tech in Computer Science, ABC University, 2019",
+    "Full Stack Bootcamp, XYZ Institute, 2021"
+  ],
+  "skills": [
+    "React.js",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "TypeScript"
+  ],
+  "file": "Rishabh_Mishra - Resume_Template.docx"
+}
